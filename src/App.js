@@ -59,6 +59,8 @@ function App() {
         setCurrentNumber(curNum => (parseFloat(prevNumber) % parseFloat(curNum)).toString())
         setPrevNumber('');
         break;
+      default:
+        break;
     }
   }
 
